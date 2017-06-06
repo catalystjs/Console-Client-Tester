@@ -74,21 +74,16 @@ namespace Console.Client.Core
             {
                 Environment.Exit(exitCode);
             }
-            //var local_apiURL = "https://localhost:44300/api/v1";
-            //var staging_apiUrl = "https://emails-staging.azure.net/api/v1";
-            //var apiUrl = "https://aeo-frontend-westus-dev-stable.azurewebsites.net/api/v1";
-            //var apiUrl = "https://aeo-test-api-auth.azurewebsites.net/api/v1";
-            //var apiUrl_test = "https://aeo-test-api-auth-integrated-aad.azurewebsites.net/api/v1";
 
             /* Example model for posting to API
             var model = new EventModel
             {
-                Email = "v-jossum@microsoft.com",
+                Email = "user@domain.com",
                 EventId = "test",
                 Culture = "en-us",
                 Values = new Dictionary<string, object>
                 {
-                    { "SubscriptionId", "e04f6872-d75b-447d-8549-23b40f6ab823" },
+                    { "SubscriptionId", "<valid-subscription-here>" },
                     { "SubscriptionName", "Azure Text Subscription" }
                 }
             };
@@ -120,8 +115,6 @@ namespace Console.Client.Core
                 System.Console.WriteLine($"An exception occurred while parsing parameters. Details: {ex}");
                 return false;
             }
-
-            // CmdLineOpt.LogValues(logger.LogInfo);
 
             return true;
         }
