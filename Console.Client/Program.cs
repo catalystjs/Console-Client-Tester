@@ -28,9 +28,6 @@ namespace Console.Client.Core
                     return;
                 }
 
-                System.Console.WriteLine("These are the command line options loaded:");
-                System.Console.WriteLine(CommandLineOptions);
-
                 Task.Run(async () =>
                 {
                     using (var client = Client.GetAuthenticatedClient(CommandLineOptions))
