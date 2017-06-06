@@ -7,8 +7,8 @@
     <ProjectGuid>{08DA4BF5-60DB-4E76-80EA-A05021CFDBA5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AEO_console_client</RootNamespace>
-    <AssemblyName>AEO-console-client</AssemblyName>
+    <RootNamespace>Console-Client-Tester</RootNamespace>
+    <AssemblyName>Console-Client-Tester</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
