@@ -51,8 +51,6 @@ namespace Console.Client.Core
 
                             // Get event status
                             response = await client.GetAsync($"{CommandLineOptions.URL}/event/status/{apiResponse.CorrelationId}");
-                            //response = await client.GetAsync($"{apiUrl_test}/event/status/{apiResponse.CorrelationId}");
-                            //response = await client.GetAsync($"{apiUrl}/event/status/{apiResponse.CorrelationId}");
                             responseContent = await response.Content.ReadAsStringAsync();
 
                             System.Console.WriteLine("Event status response");
